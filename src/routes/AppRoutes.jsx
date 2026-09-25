@@ -1,10 +1,34 @@
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom"
 
-const AppRoutees = () =>{
+import HomeFuncionario from "../pages/HomeFuncionario/HomeFuncionario"
+import ListarProduto from "../pages/ListarProduto/ListarProduto"
 
-    return(
-        <div>
+const AppRoutes = () => {
+    return (
+        <BrowserRouter>
+            <Routes>
 
-        </div>
+                <Route
+                    path="/"
+                    element={<HomeFuncionario />}
+                />
+
+                <Route
+                    path="/pizzaria/funcionario/home"
+                    element={<HomeFuncionario />}
+                />
+
+                <Route
+                    path="/pizzaria/funcionario/produtos"
+                    element={<ListarProduto />}
+                />
+
+            </Routes>
+        </BrowserRouter>
     )
 }
 

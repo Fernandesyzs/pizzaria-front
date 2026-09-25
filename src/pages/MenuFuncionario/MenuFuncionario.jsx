@@ -32,7 +32,7 @@ const MenuFuncionario = () => {
 
                 <ul className="navbar-nav me auto">
                 <li className="nav-item active">
-                    <a className="nav-link" href="/pizzaria/funcionario/produto">
+                    <a className="nav-link" href="/pizzaria/funcionario/produtos">
                        
                         Produtos
 
@@ -40,7 +40,7 @@ const MenuFuncionario = () => {
                  </li>
 
                     <li className="nav-item">
-                        <a className="nav-link" href="/pizzaria/funcionario/categoria">
+                        <a className="nav-link" href="/pizzaria/funcionario/categorias">
 
                         Categorias
 
@@ -48,7 +48,7 @@ const MenuFuncionario = () => {
                         </li>
                 <li className="nav-item">
 
-                    <a className="nav-link" href="/pizzaria/funcionario/estoque">
+                    <a className="nav-link" href="/pizzaria/funcionario/estoques">
 
                     Estoque 
 
