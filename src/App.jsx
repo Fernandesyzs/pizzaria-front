@@ -1,4 +1,4 @@
-import './App.css'
+// import './App.css'
 import HomeFuncionario from './pages/HomeFuncionario/HomeFuncionario'
 import MenuFuncionario from './pages/MenuFuncionario/MenuFuncionario'
 
